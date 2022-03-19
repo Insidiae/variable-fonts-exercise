@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
   --color-gray-100: hsl(270deg 25% 96%);
   --color-gray-300: hsl(270deg 17% 84%);
   --color-gray-500: hsl(270deg 17% 72%);
@@ -41,11 +42,25 @@ footer {
 }
 
 .logo {
+  font-variation-settings: "wght" 900;
   font-size: 2rem;
   margin-bottom: 16px;
 }
 
+.sublogo {
+  color: var(--color-gray-500);
+  font-variation-settings: "wght" 500;
+  font-style: italic;
+}
+
+.person-name {
+  color: var(--color-gray-300);
+  font-variation-settings: "wght" 700;
+}
+
 .legal {
+  color: var(--color-gray-700);
+  font-variation-settings: "wght" 400;
   margin-top: auto;
 }
 
@@ -55,6 +70,8 @@ footer {
 }
 
 .links h2 {
+  color: var(--color-gray-700);
+  font-variation-settings: "wght" 700;
   margin-bottom: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -69,6 +86,8 @@ footer {
 }
 
 .links a {
+  color: var(--color-gray-100);
+  font-variation-settings: "wght" 500;
   text-decoration: none;
 }
 
